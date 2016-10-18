@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0A489D1DAF39C700A166E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A489C1DAF39C700A166E8 /* main.m */; };
+		DB0A48A01DAF39C700A166E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A489F1DAF39C700A166E8 /* AppDelegate.m */; };
+		DB0A48A31DAF39C700A166E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A48A21DAF39C700A166E8 /* ViewController.m */; };
+		DB0A48A61DAF39C700A166E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0A48A41DAF39C700A166E8 /* Main.storyboard */; };
+		DB0A48A81DAF39C700A166E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0A48A71DAF39C700A166E8 /* Assets.xcassets */; };
+		DB0A48AB1DAF39C700A166E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0A48A91DAF39C700A166E8 /* LaunchScreen.storyboard */; };
+		DB0A48B61DAF39C700A166E8 /* WLHPictureRotatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A48B51DAF39C700A166E8 /* WLHPictureRotatorTests.m */; };
+		DB0A48C11DAF39C700A166E8 /* WLHPictureRotatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A48C01DAF39C700A166E8 /* WLHPictureRotatorUITests.m */; };
+		DB0A48D11DAF3A7D00A166E8 /* WLHPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A48CF1DAF3A7D00A166E8 /* WLHPictureCell.m */; };
+		DB0A48D21DAF3A7D00A166E8 /* WLHPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A48D01DAF3A7D00A166E8 /* WLHPictureCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0A48B21DAF39C700A166E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0A48901DAF39C700A166E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0A48971DAF39C700A166E8;
+			remoteInfo = WLHPictureRotator;
+		};
+		DB0A48BD1DAF39C700A166E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0A48901DAF39C700A166E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0A48971DAF39C700A166E8;
+			remoteInfo = WLHPictureRotator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0A48981DAF39C700A166E8 /* WLHPictureRotator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLHPictureRotator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0A489C1DAF39C700A166E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB0A489E1DAF39C700A166E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB0A489F1DAF39C700A166E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB0A48A11DAF39C700A166E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB0A48A21DAF39C700A166E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB0A48A51DAF39C700A166E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0A48A71DAF39C700A166E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0A48AA1DAF39C700A166E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0A48AC1DAF39C700A166E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0A48B11DAF39C700A166E8 /* WLHPictureRotatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLHPictureRotatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0A48B51DAF39C700A166E8 /* WLHPictureRotatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLHPictureRotatorTests.m; sourceTree = "<group>"; };
+		DB0A48B71DAF39C700A166E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0A48BC1DAF39C700A166E8 /* WLHPictureRotatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLHPictureRotatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0A48C01DAF39C700A166E8 /* WLHPictureRotatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLHPictureRotatorUITests.m; sourceTree = "<group>"; };
+		DB0A48C21DAF39C700A166E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0A48CE1DAF3A7D00A166E8 /* WLHPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHPictureCell.h; sourceTree = "<group>"; };
+		DB0A48CF1DAF3A7D00A166E8 /* WLHPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHPictureCell.m; sourceTree = "<group>"; };
+		DB0A48D01DAF3A7D00A166E8 /* WLHPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHPictureCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0A48951DAF39C700A166E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48AE1DAF39C700A166E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48B91DAF39C700A166E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0A488F1DAF39C700A166E8 = {
+			isa = PBXGroup;
+			children = (
+				DB0A489A1DAF39C700A166E8 /* WLHPictureRotator */,
+				DB0A48B41DAF39C700A166E8 /* WLHPictureRotatorTests */,
+				DB0A48BF1DAF39C700A166E8 /* WLHPictureRotatorUITests */,
+				DB0A48991DAF39C700A166E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0A48991DAF39C700A166E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A48981DAF39C700A166E8 /* WLHPictureRotator.app */,
+				DB0A48B11DAF39C700A166E8 /* WLHPictureRotatorTests.xctest */,
+				DB0A48BC1DAF39C700A166E8 /* WLHPictureRotatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0A489A1DAF39C700A166E8 /* WLHPictureRotator */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A489E1DAF39C700A166E8 /* AppDelegate.h */,
+				DB0A489F1DAF39C700A166E8 /* AppDelegate.m */,
+				DB0A48A11DAF39C700A166E8 /* ViewController.h */,
+				DB0A48A21DAF39C700A166E8 /* ViewController.m */,
+				DB0A48CE1DAF3A7D00A166E8 /* WLHPictureCell.h */,
+				DB0A48CF1DAF3A7D00A166E8 /* WLHPictureCell.m */,
+				DB0A48D01DAF3A7D00A166E8 /* WLHPictureCell.xib */,
+				DB0A48A41DAF39C700A166E8 /* Main.storyboard */,
+				DB0A48A71DAF39C700A166E8 /* Assets.xcassets */,
+				DB0A48A91DAF39C700A166E8 /* LaunchScreen.storyboard */,
+				DB0A48AC1DAF39C700A166E8 /* Info.plist */,
+				DB0A489B1DAF39C700A166E8 /* Supporting Files */,
+			);
+			path = WLHPictureRotator;
+			sourceTree = "<group>";
+		};
+		DB0A489B1DAF39C700A166E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A489C1DAF39C700A166E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0A48B41DAF39C700A166E8 /* WLHPictureRotatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A48B51DAF39C700A166E8 /* WLHPictureRotatorTests.m */,
+				DB0A48B71DAF39C700A166E8 /* Info.plist */,
+			);
+			path = WLHPictureRotatorTests;
+			sourceTree = "<group>";
+		};
+		DB0A48BF1DAF39C700A166E8 /* WLHPictureRotatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A48C01DAF39C700A166E8 /* WLHPictureRotatorUITests.m */,
+				DB0A48C21DAF39C700A166E8 /* Info.plist */,
+			);
+			path = WLHPictureRotatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0A48971DAF39C700A166E8 /* WLHPictureRotator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0A48C51DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotator" */;
+			buildPhases = (
+				DB0A48941DAF39C700A166E8 /* Sources */,
+				DB0A48951DAF39C700A166E8 /* Frameworks */,
+				DB0A48961DAF39C700A166E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLHPictureRotator;
+			productName = WLHPictureRotator;
+			productReference = DB0A48981DAF39C700A166E8 /* WLHPictureRotator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0A48B01DAF39C700A166E8 /* WLHPictureRotatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0A48C81DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotatorTests" */;
+			buildPhases = (
+				DB0A48AD1DAF39C700A166E8 /* Sources */,
+				DB0A48AE1DAF39C700A166E8 /* Frameworks */,
+				DB0A48AF1DAF39C700A166E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0A48B31DAF39C700A166E8 /* PBXTargetDependency */,
+			);
+			name = WLHPictureRotatorTests;
+			productName = WLHPictureRotatorTests;
+			productReference = DB0A48B11DAF39C700A166E8 /* WLHPictureRotatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0A48BB1DAF39C700A166E8 /* WLHPictureRotatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0A48CB1DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotatorUITests" */;
+			buildPhases = (
+				DB0A48B81DAF39C700A166E8 /* Sources */,
+				DB0A48B91DAF39C700A166E8 /* Frameworks */,
+				DB0A48BA1DAF39C700A166E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0A48BE1DAF39C700A166E8 /* PBXTargetDependency */,
+			);
+			name = WLHPictureRotatorUITests;
+			productName = WLHPictureRotatorUITests;
+			productReference = DB0A48BC1DAF39C700A166E8 /* WLHPictureRotatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0A48901DAF39C700A166E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WuLiang;
+				TargetAttributes = {
+					DB0A48971DAF39C700A166E8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DB0A48B01DAF39C700A166E8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB0A48971DAF39C700A166E8;
+					};
+					DB0A48BB1DAF39C700A166E8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB0A48971DAF39C700A166E8;
+					};
+				};
+			};
+			buildConfigurationList = DB0A48931DAF39C700A166E8 /* Build configuration list for PBXProject "WLHPictureRotator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0A488F1DAF39C700A166E8;
+			productRefGroup = DB0A48991DAF39C700A166E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0A48971DAF39C700A166E8 /* WLHPictureRotator */,
+				DB0A48B01DAF39C700A166E8 /* WLHPictureRotatorTests */,
+				DB0A48BB1DAF39C700A166E8 /* WLHPictureRotatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0A48961DAF39C700A166E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0A48AB1DAF39C700A166E8 /* LaunchScreen.storyboard in Resources */,
+				DB0A48A81DAF39C700A166E8 /* Assets.xcassets in Resources */,
+				DB0A48D21DAF3A7D00A166E8 /* WLHPictureCell.xib in Resources */,
+				DB0A48A61DAF39C700A166E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48AF1DAF39C700A166E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48BA1DAF39C700A166E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0A48941DAF39C700A166E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0A48A31DAF39C700A166E8 /* ViewController.m in Sources */,
+				DB0A48A01DAF39C700A166E8 /* AppDelegate.m in Sources */,
+				DB0A48D11DAF3A7D00A166E8 /* WLHPictureCell.m in Sources */,
+				DB0A489D1DAF39C700A166E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48AD1DAF39C700A166E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0A48B61DAF39C700A166E8 /* WLHPictureRotatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A48B81DAF39C700A166E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0A48C11DAF39C700A166E8 /* WLHPictureRotatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0A48B31DAF39C700A166E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0A48971DAF39C700A166E8 /* WLHPictureRotator */;
+			targetProxy = DB0A48B21DAF39C700A166E8 /* PBXContainerItemProxy */;
+		};
+		DB0A48BE1DAF39C700A166E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0A48971DAF39C700A166E8 /* WLHPictureRotator */;
+			targetProxy = DB0A48BD1DAF39C700A166E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB0A48A41DAF39C700A166E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0A48A51DAF39C700A166E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0A48A91DAF39C700A166E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0A48AA1DAF39C700A166E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0A48C31DAF39C700A166E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0A48C41DAF39C700A166E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0A48C61DAF39C700A166E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLHPictureRotator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB0A48C71DAF39C700A166E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLHPictureRotator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB0A48C91DAF39C700A166E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLHPictureRotatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLHPictureRotator.app/WLHPictureRotator";
+			};
+			name = Debug;
+		};
+		DB0A48CA1DAF39C700A166E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLHPictureRotatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLHPictureRotator.app/WLHPictureRotator";
+			};
+			name = Release;
+		};
+		DB0A48CC1DAF39C700A166E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLHPictureRotatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLHPictureRotator;
+			};
+			name = Debug;
+		};
+		DB0A48CD1DAF39C700A166E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLHPictureRotatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHPictureRotatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLHPictureRotator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0A48931DAF39C700A166E8 /* Build configuration list for PBXProject "WLHPictureRotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0A48C31DAF39C700A166E8 /* Debug */,
+				DB0A48C41DAF39C700A166E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0A48C51DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0A48C61DAF39C700A166E8 /* Debug */,
+				DB0A48C71DAF39C700A166E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0A48C81DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0A48C91DAF39C700A166E8 /* Debug */,
+				DB0A48CA1DAF39C700A166E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0A48CB1DAF39C700A166E8 /* Build configuration list for PBXNativeTarget "WLHPictureRotatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0A48CC1DAF39C700A166E8 /* Debug */,
+				DB0A48CD1DAF39C700A166E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0A48901DAF39C700A166E8 /* Project object */;
+}
