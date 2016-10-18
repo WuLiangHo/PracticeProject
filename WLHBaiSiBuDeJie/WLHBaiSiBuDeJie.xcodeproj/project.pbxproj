@@ -14,6 +14,13 @@
 		DBAF43621DB34D2C00B78E73 /* WLHBaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43611DB34D2C00B78E73 /* WLHBaiSiBuDeJieUITests.m */; };
 		DBAF438E1DB6605700B78E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43871DB6605700B78E73 /* AppDelegate.m */; };
 		DBAF438F1DB6605700B78E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43891DB6605700B78E73 /* main.m */; };
+		DBAF43951DB665D300B78E73 /* WLHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43941DB665D300B78E73 /* WLHTabBarController.m */; };
+		DBAF43981DB6664200B78E73 /* WLHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43971DB6664200B78E73 /* WLHEssenceViewController.m */; };
+		DBAF439B1DB6666F00B78E73 /* WLHFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF439A1DB6666F00B78E73 /* WLHFriendTrendViewController.m */; };
+		DBAF439E1DB666A300B78E73 /* WLHMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF439D1DB666A300B78E73 /* WLHMeTableViewController.m */; };
+		DBAF43A11DB666BF00B78E73 /* WLHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43A01DB666BF00B78E73 /* WLHNewViewController.m */; };
+		DBAF43A41DB666FB00B78E73 /* WLHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43A31DB666FB00B78E73 /* WLHPublishViewController.m */; };
+		DBAF43A71DB6676D00B78E73 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF43A61DB6676D00B78E73 /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,20 @@
 		DBAF43861DB6605700B78E73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBAF43871DB6605700B78E73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DBAF43891DB6605700B78E73 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBAF43931DB665D300B78E73 /* WLHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHTabBarController.h; sourceTree = "<group>"; };
+		DBAF43941DB665D300B78E73 /* WLHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHTabBarController.m; sourceTree = "<group>"; };
+		DBAF43961DB6664200B78E73 /* WLHEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHEssenceViewController.h; sourceTree = "<group>"; };
+		DBAF43971DB6664200B78E73 /* WLHEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHEssenceViewController.m; sourceTree = "<group>"; };
+		DBAF43991DB6666F00B78E73 /* WLHFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHFriendTrendViewController.h; sourceTree = "<group>"; };
+		DBAF439A1DB6666F00B78E73 /* WLHFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHFriendTrendViewController.m; sourceTree = "<group>"; };
+		DBAF439C1DB666A300B78E73 /* WLHMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHMeTableViewController.h; sourceTree = "<group>"; };
+		DBAF439D1DB666A300B78E73 /* WLHMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHMeTableViewController.m; sourceTree = "<group>"; };
+		DBAF439F1DB666BF00B78E73 /* WLHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHNewViewController.h; sourceTree = "<group>"; };
+		DBAF43A01DB666BF00B78E73 /* WLHNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHNewViewController.m; sourceTree = "<group>"; };
+		DBAF43A21DB666FB00B78E73 /* WLHPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHPublishViewController.h; sourceTree = "<group>"; };
+		DBAF43A31DB666FB00B78E73 /* WLHPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHPublishViewController.m; sourceTree = "<group>"; };
+		DBAF43A51DB6676D00B78E73 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		DBAF43A61DB6676D00B78E73 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,13 +157,13 @@
 		DBAF43701DB6605700B78E73 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43791DB6605700B78E73 /* Main */,
 				DBAF43711DB6605700B78E73 /* Essence */,
 				DBAF43751DB6605700B78E73 /* FriendTrend */,
-				DBAF43791DB6605700B78E73 /* Main */,
 				DBAF437D1DB6605700B78E73 /* Me */,
 				DBAF43811DB6605700B78E73 /* New */,
-				DBAF43851DB6605700B78E73 /* Other */,
 				DBAF438A1DB6605700B78E73 /* Publish */,
+				DBAF43851DB6605700B78E73 /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,6 +181,8 @@
 		DBAF43721DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43961DB6664200B78E73 /* WLHEssenceViewController.h */,
+				DBAF43971DB6664200B78E73 /* WLHEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +214,8 @@
 		DBAF43761DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43991DB6666F00B78E73 /* WLHFriendTrendViewController.h */,
+				DBAF439A1DB6666F00B78E73 /* WLHFriendTrendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +247,8 @@
 		DBAF437A1DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43931DB665D300B78E73 /* WLHTabBarController.h */,
+				DBAF43941DB665D300B78E73 /* WLHTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,6 +280,8 @@
 		DBAF437E1DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF439C1DB666A300B78E73 /* WLHMeTableViewController.h */,
+				DBAF439D1DB666A300B78E73 /* WLHMeTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +313,8 @@
 		DBAF43821DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF439F1DB666BF00B78E73 /* WLHNewViewController.h */,
+				DBAF43A01DB666BF00B78E73 /* WLHNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,9 +336,9 @@
 		DBAF43851DB6605700B78E73 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43881DB6605700B78E73 /* Category */,
 				DBAF43861DB6605700B78E73 /* AppDelegate.h */,
 				DBAF43871DB6605700B78E73 /* AppDelegate.m */,
-				DBAF43881DB6605700B78E73 /* Category */,
 				DBAF43891DB6605700B78E73 /* main.m */,
 			);
 			path = Other;
@@ -316,6 +347,8 @@
 		DBAF43881DB6605700B78E73 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43A51DB6676D00B78E73 /* UIImage+Image.h */,
+				DBAF43A61DB6676D00B78E73 /* UIImage+Image.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -333,6 +366,8 @@
 		DBAF438B1DB6605700B78E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBAF43A21DB666FB00B78E73 /* WLHPublishViewController.h */,
+				DBAF43A31DB666FB00B78E73 /* WLHPublishViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -482,7 +517,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAF438F1DB6605700B78E73 /* main.m in Sources */,
+				DBAF43981DB6664200B78E73 /* WLHEssenceViewController.m in Sources */,
+				DBAF439B1DB6666F00B78E73 /* WLHFriendTrendViewController.m in Sources */,
+				DBAF43A71DB6676D00B78E73 /* UIImage+Image.m in Sources */,
+				DBAF43951DB665D300B78E73 /* WLHTabBarController.m in Sources */,
 				DBAF438E1DB6605700B78E73 /* AppDelegate.m in Sources */,
+				DBAF439E1DB666A300B78E73 /* WLHMeTableViewController.m in Sources */,
+				DBAF43A41DB666FB00B78E73 /* WLHPublishViewController.m in Sources */,
+				DBAF43A11DB666BF00B78E73 /* WLHNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
