@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WLHTabBarController.h"
+#import "WLHADViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +22,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置窗口根控制器
-    WLHTabBarController *tabBarVc = [[WLHTabBarController alloc] init];
-    self.window.rootViewController = tabBarVc;
+    WLHADViewController *adVc = [[WLHADViewController alloc] init];
+    self.window.rootViewController = adVc;
     
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,6 +7,7 @@
 //
 
 #import "WLHMeTableViewController.h"
+#import "WLHSettingViewController.h"
 
 @interface WLHMeTableViewController ()
 
@@ -17,11 +18,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    // 设置导航栏信息
+    [self setUpNavBarItem];
+}
+
+- (void)setUpNavBarItem {
+    UIBarButtonItem *nightItem = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selImage:[UIImage imageNamed:@"mine-moon-icon-click"] addTarget:self action:@selector(nightClick:)];
+    UIBarButtonItem *settingItem = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"mine-setting-icon"] highImage:[UIImage imageNamed:@"mine-setting-icon-click"] addTarget:self action:@selector(settingClick)];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItems = @[settingItem, nightItem];
+    
+    self.navigationItem.title = @"我的";
+    
+}
+
+- (void)nightClick:(UIButton *)button {
+    button.selected = !button.selected;
+}
+
+- (void)settingClick {
+    WLHSettingViewController *setVc = [[WLHSettingViewController alloc] init];
+    
+    [self.navigationController pushViewController:setVc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
