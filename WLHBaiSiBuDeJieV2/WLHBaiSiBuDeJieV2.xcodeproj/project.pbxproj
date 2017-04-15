@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9379A9FF07B0C03DC35F124 /* libPods-WLHBaiSiBuDeJieV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A53C9383FFCF9BA0397D9015 /* libPods-WLHBaiSiBuDeJieV2.a */; };
+		DB084A6D1E98A88A001A3509 /* WLHAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB084A6C1E98A88A001A3509 /* WLHAdItem.m */; };
+		DB30FA421E94D521005F706F /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30FA411E94D521005F706F /* UIView+frame.m */; };
+		DB30FA461E94EB8E005F706F /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30FA451E94EB8E005F706F /* UIBarButtonItem+item.m */; };
+		DB30FA491E94F74E005F706F /* WLHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30FA481E94F74E005F706F /* WLHNavigationController.m */; };
+		DB30FA501E9524C2005F706F /* WLHSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30FA4F1E9524C2005F706F /* WLHSettingController.m */; };
+		DB3265051E9E733800A20E60 /* WLHFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3265041E9E733800A20E60 /* WLHFriendTrendsController.xib */; };
+		DB34BA821E98E5FD009EC80E /* WLHRecomTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34BA811E98E5FD009EC80E /* WLHRecomTagController.m */; };
+		DB34BA881E98EA7E009EC80E /* WLHTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34BA871E98EA7E009EC80E /* WLHTagItem.m */; };
+		DB34BA8F1E98F34A009EC80E /* WLHRecomTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34BA8D1E98F34A009EC80E /* WLHRecomTagCell.m */; };
+		DB34BA901E98F34A009EC80E /* WLHRecomTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34BA8E1E98F34A009EC80E /* WLHRecomTagCell.xib */; };
+		DB3AAD091E94A9A50066683B /* WLHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3AAD081E94A9A50066683B /* WLHTabBar.m */; };
+		DB4555301E8E982300138F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45552F1E8E982300138F9B /* main.m */; };
+		DB4555391E8E982300138F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4555371E8E982300138F9B /* Main.storyboard */; };
+		DB45553B1E8E982300138F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB45553A1E8E982300138F9B /* Assets.xcassets */; };
+		DB45553E1E8E982300138F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB45553C1E8E982300138F9B /* LaunchScreen.storyboard */; };
+		DB4555491E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4555481E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.m */; };
+		DB66EEDA1E9682C4002BE0E8 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED31E9682C4002BE0E8 /* LaunchImage-568h@2x.png */; };
+		DB66EEDB1E9682C4002BE0E8 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED41E9682C4002BE0E8 /* LaunchImage-700-568h@2x.png */; };
+		DB66EEDC1E9682C4002BE0E8 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED51E9682C4002BE0E8 /* LaunchImage-700@2x.png */; };
+		DB66EEDD1E9682C4002BE0E8 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED61E9682C4002BE0E8 /* LaunchImage-800-667h@2x.png */; };
+		DB66EEDE1E9682C4002BE0E8 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED71E9682C4002BE0E8 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		DB66EEDF1E9682C4002BE0E8 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED81E9682C4002BE0E8 /* LaunchImage.png */; };
+		DB66EEE01E9682C4002BE0E8 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66EED91E9682C4002BE0E8 /* LaunchImage@2x.png */; };
+		DB66EEE71E96836B002BE0E8 /* WLHAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66EEE61E96836B002BE0E8 /* WLHAdViewController.m */; };
+		DB66EEE91E968393002BE0E8 /* WLHAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66EEE81E968393002BE0E8 /* WLHAdViewController.xib */; };
+		DB66FEAE1EA08A1400F4C123 /* WLHQuickLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66FEAD1EA08A1400F4C123 /* WLHQuickLoginView.m */; };
+		DB66FEB01EA08A1F00F4C123 /* WLHQuickLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66FEAF1EA08A1F00F4C123 /* WLHQuickLoginView.xib */; };
+		DB66FEB31EA08F2F00F4C123 /* WLHQuickButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66FEB21EA08F2F00F4C123 /* WLHQuickButton.m */; };
+		DB73F21B1EA1F40400840D67 /* WLHLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = DB73F21A1EA1F40400840D67 /* WLHLoginField.m */; };
+		DBC973DB1E8FBD1900620E78 /* WLHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973DA1E8FBD1900620E78 /* WLHTabBarController.m */; };
+		DBC973DE1E8FBD3B00620E78 /* WLHEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973DD1E8FBD3B00620E78 /* WLHEssenceController.m */; };
+		DBC973E11E8FBD5800620E78 /* WLHFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973E01E8FBD5800620E78 /* WLHFriendTrendsController.m */; };
+		DBC973E41E8FBD7200620E78 /* WLHMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973E31E8FBD7200620E78 /* WLHMineController.m */; };
+		DBC973E71E8FBDA900620E78 /* WLHNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973E61E8FBDA900620E78 /* WLHNewController.m */; };
+		DBC973EA1E8FBDBB00620E78 /* WLHPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973E91E8FBDBB00620E78 /* WLHPublishController.m */; };
+		DBC973EE1E8FC4CC00620E78 /* UIImage+WLHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC973ED1E8FC4CC00620E78 /* UIImage+WLHImage.m */; };
+		DBDAA2A31E8FB0450043E140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAA29E1E8FB0450043E140 /* AppDelegate.m */; };
+		DBDBFB5B1E9F825700D484AF /* WLHloginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDBFB591E9F825700D484AF /* WLHloginRegisterViewController.m */; };
+		DBDBFB5C1E9F825700D484AF /* WLHloginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDBFB5A1E9F825700D484AF /* WLHloginRegisterViewController.xib */; };
+		DBDBFB5F1E9F8F8200D484AF /* WLHLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDBFB5E1E9F8F8200D484AF /* WLHLoginRegisterView.m */; };
+		DBDBFB611E9F8F9200D484AF /* WLHLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDBFB601E9F8F9200D484AF /* WLHLoginRegisterView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4555451E8E982300138F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4555231E8E982300138F9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB45552A1E8E982300138F9B;
+			remoteInfo = WLHBaiSiBuDeJieV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		586D181E1480217B1C9EC95F /* Pods-WLHBaiSiBuDeJieV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLHBaiSiBuDeJieV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLHBaiSiBuDeJieV2/Pods-WLHBaiSiBuDeJieV2.release.xcconfig"; sourceTree = "<group>"; };
+		A53C9383FFCF9BA0397D9015 /* libPods-WLHBaiSiBuDeJieV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLHBaiSiBuDeJieV2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47531A120113621C1B03AFE /* Pods-WLHBaiSiBuDeJieV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLHBaiSiBuDeJieV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLHBaiSiBuDeJieV2/Pods-WLHBaiSiBuDeJieV2.debug.xcconfig"; sourceTree = "<group>"; };
+		DB084A6B1E98A88A001A3509 /* WLHAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHAdItem.h; sourceTree = "<group>"; };
+		DB084A6C1E98A88A001A3509 /* WLHAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHAdItem.m; sourceTree = "<group>"; };
+		DB30FA401E94D521005F706F /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		DB30FA411E94D521005F706F /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		DB30FA431E94D74C005F706F /* WLHBaiSiBuDeJieV2.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLHBaiSiBuDeJieV2.pch; sourceTree = "<group>"; };
+		DB30FA441E94EB8E005F706F /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		DB30FA451E94EB8E005F706F /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		DB30FA471E94F74E005F706F /* WLHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHNavigationController.h; sourceTree = "<group>"; };
+		DB30FA481E94F74E005F706F /* WLHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHNavigationController.m; sourceTree = "<group>"; };
+		DB30FA4E1E9524C2005F706F /* WLHSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHSettingController.h; sourceTree = "<group>"; };
+		DB30FA4F1E9524C2005F706F /* WLHSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHSettingController.m; sourceTree = "<group>"; };
+		DB3265041E9E733800A20E60 /* WLHFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHFriendTrendsController.xib; sourceTree = "<group>"; };
+		DB34BA801E98E5FD009EC80E /* WLHRecomTagController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHRecomTagController.h; sourceTree = "<group>"; };
+		DB34BA811E98E5FD009EC80E /* WLHRecomTagController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHRecomTagController.m; sourceTree = "<group>"; };
+		DB34BA861E98EA7E009EC80E /* WLHTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHTagItem.h; sourceTree = "<group>"; };
+		DB34BA871E98EA7E009EC80E /* WLHTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHTagItem.m; sourceTree = "<group>"; };
+		DB34BA8C1E98F34A009EC80E /* WLHRecomTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHRecomTagCell.h; sourceTree = "<group>"; };
+		DB34BA8D1E98F34A009EC80E /* WLHRecomTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHRecomTagCell.m; sourceTree = "<group>"; };
+		DB34BA8E1E98F34A009EC80E /* WLHRecomTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHRecomTagCell.xib; sourceTree = "<group>"; };
+		DB3AAD071E94A9A50066683B /* WLHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHTabBar.h; sourceTree = "<group>"; };
+		DB3AAD081E94A9A50066683B /* WLHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHTabBar.m; sourceTree = "<group>"; };
+		DB45552B1E8E982300138F9B /* WLHBaiSiBuDeJieV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLHBaiSiBuDeJieV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB45552F1E8E982300138F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4555381E8E982300138F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB45553A1E8E982300138F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB45553D1E8E982300138F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB45553F1E8E982300138F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4555441E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLHBaiSiBuDeJieV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4555481E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLHBaiSiBuDeJieV2UITests.m; sourceTree = "<group>"; };
+		DB45554A1E8E982300138F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB66EED31E9682C4002BE0E8 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		DB66EED41E9682C4002BE0E8 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		DB66EED51E9682C4002BE0E8 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		DB66EED61E9682C4002BE0E8 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		DB66EED71E9682C4002BE0E8 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		DB66EED81E9682C4002BE0E8 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		DB66EED91E9682C4002BE0E8 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		DB66EEE51E96836B002BE0E8 /* WLHAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHAdViewController.h; sourceTree = "<group>"; };
+		DB66EEE61E96836B002BE0E8 /* WLHAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHAdViewController.m; sourceTree = "<group>"; };
+		DB66EEE81E968393002BE0E8 /* WLHAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHAdViewController.xib; sourceTree = "<group>"; };
+		DB66FEAC1EA08A1400F4C123 /* WLHQuickLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHQuickLoginView.h; sourceTree = "<group>"; };
+		DB66FEAD1EA08A1400F4C123 /* WLHQuickLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHQuickLoginView.m; sourceTree = "<group>"; };
+		DB66FEAF1EA08A1F00F4C123 /* WLHQuickLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHQuickLoginView.xib; sourceTree = "<group>"; };
+		DB66FEB11EA08F2F00F4C123 /* WLHQuickButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHQuickButton.h; sourceTree = "<group>"; };
+		DB66FEB21EA08F2F00F4C123 /* WLHQuickButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHQuickButton.m; sourceTree = "<group>"; };
+		DB73F2191EA1F40400840D67 /* WLHLoginField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHLoginField.h; sourceTree = "<group>"; };
+		DB73F21A1EA1F40400840D67 /* WLHLoginField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHLoginField.m; sourceTree = "<group>"; };
+		DBC973D91E8FBD1900620E78 /* WLHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHTabBarController.h; sourceTree = "<group>"; };
+		DBC973DA1E8FBD1900620E78 /* WLHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHTabBarController.m; sourceTree = "<group>"; };
+		DBC973DC1E8FBD3B00620E78 /* WLHEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHEssenceController.h; sourceTree = "<group>"; };
+		DBC973DD1E8FBD3B00620E78 /* WLHEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHEssenceController.m; sourceTree = "<group>"; };
+		DBC973DF1E8FBD5800620E78 /* WLHFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHFriendTrendsController.h; sourceTree = "<group>"; };
+		DBC973E01E8FBD5800620E78 /* WLHFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHFriendTrendsController.m; sourceTree = "<group>"; };
+		DBC973E21E8FBD7200620E78 /* WLHMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHMineController.h; sourceTree = "<group>"; };
+		DBC973E31E8FBD7200620E78 /* WLHMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHMineController.m; sourceTree = "<group>"; };
+		DBC973E51E8FBDA900620E78 /* WLHNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHNewController.h; sourceTree = "<group>"; };
+		DBC973E61E8FBDA900620E78 /* WLHNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHNewController.m; sourceTree = "<group>"; };
+		DBC973E81E8FBDBB00620E78 /* WLHPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHPublishController.h; sourceTree = "<group>"; };
+		DBC973E91E8FBDBB00620E78 /* WLHPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHPublishController.m; sourceTree = "<group>"; };
+		DBC973EC1E8FC4CC00620E78 /* UIImage+WLHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WLHImage.h"; sourceTree = "<group>"; };
+		DBC973ED1E8FC4CC00620E78 /* UIImage+WLHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WLHImage.m"; sourceTree = "<group>"; };
+		DBDAA29D1E8FB0450043E140 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBDAA29E1E8FB0450043E140 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBDBFB581E9F825700D484AF /* WLHloginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHloginRegisterViewController.h; sourceTree = "<group>"; };
+		DBDBFB591E9F825700D484AF /* WLHloginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHloginRegisterViewController.m; sourceTree = "<group>"; };
+		DBDBFB5A1E9F825700D484AF /* WLHloginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHloginRegisterViewController.xib; sourceTree = "<group>"; };
+		DBDBFB5D1E9F8F8200D484AF /* WLHLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHLoginRegisterView.h; sourceTree = "<group>"; };
+		DBDBFB5E1E9F8F8200D484AF /* WLHLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHLoginRegisterView.m; sourceTree = "<group>"; };
+		DBDBFB601E9F8F9200D484AF /* WLHLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLHLoginRegisterView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4555281E8E982300138F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9379A9FF07B0C03DC35F124 /* libPods-WLHBaiSiBuDeJieV2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4555411E8E982300138F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4507A04DACE3CAF2A43A6C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47531A120113621C1B03AFE /* Pods-WLHBaiSiBuDeJieV2.debug.xcconfig */,
+				586D181E1480217B1C9EC95F /* Pods-WLHBaiSiBuDeJieV2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E1351B1266EEAACB243DA1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53C9383FFCF9BA0397D9015 /* libPods-WLHBaiSiBuDeJieV2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB30FA4A1E95249A005F706F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DB30FA4B1E95249A005F706F /* Control */,
+				DB30FA4C1E95249A005F706F /* Model */,
+				DB30FA4D1E95249A005F706F /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DB30FA4B1E95249A005F706F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DB30FA4E1E9524C2005F706F /* WLHSettingController.h */,
+				DB30FA4F1E9524C2005F706F /* WLHSettingController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DB30FA4C1E95249A005F706F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB30FA4D1E95249A005F706F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4555221E8E982300138F9B = {
+			isa = PBXGroup;
+			children = (
+				DB45552D1E8E982300138F9B /* WLHBaiSiBuDeJieV2 */,
+				DB4555471E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests */,
+				DB45552C1E8E982300138F9B /* Products */,
+				4507A04DACE3CAF2A43A6C18 /* Pods */,
+				5E1351B1266EEAACB243DA1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB45552C1E8E982300138F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB45552B1E8E982300138F9B /* WLHBaiSiBuDeJieV2.app */,
+				DB4555441E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB45552D1E8E982300138F9B /* WLHBaiSiBuDeJieV2 */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA28B1E8FB0450043E140 /* Classes */,
+				DB4555371E8E982300138F9B /* Main.storyboard */,
+				DB45553A1E8E982300138F9B /* Assets.xcassets */,
+				DB45553C1E8E982300138F9B /* LaunchScreen.storyboard */,
+				DB45553F1E8E982300138F9B /* Info.plist */,
+				DB45552E1E8E982300138F9B /* Supporting Files */,
+			);
+			path = WLHBaiSiBuDeJieV2;
+			sourceTree = "<group>";
+		};
+		DB45552E1E8E982300138F9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB66EED21E9682C4002BE0E8 /* 启动图片 */,
+				DB45552F1E8E982300138F9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB4555471E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4555481E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.m */,
+				DB45554A1E8E982300138F9B /* Info.plist */,
+			);
+			path = WLHBaiSiBuDeJieV2UITests;
+			sourceTree = "<group>";
+		};
+		DB66EED21E9682C4002BE0E8 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				DB66EED31E9682C4002BE0E8 /* LaunchImage-568h@2x.png */,
+				DB66EED41E9682C4002BE0E8 /* LaunchImage-700-568h@2x.png */,
+				DB66EED51E9682C4002BE0E8 /* LaunchImage-700@2x.png */,
+				DB66EED61E9682C4002BE0E8 /* LaunchImage-800-667h@2x.png */,
+				DB66EED71E9682C4002BE0E8 /* LaunchImage-800-Portrait-736h@3x.png */,
+				DB66EED81E9682C4002BE0E8 /* LaunchImage.png */,
+				DB66EED91E9682C4002BE0E8 /* LaunchImage@2x.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
+		DB66EEE11E968342002BE0E8 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				DB66EEE21E968342002BE0E8 /* Control */,
+				DB66EEE31E968342002BE0E8 /* Model */,
+				DB66EEE41E968342002BE0E8 /* View */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		DB66EEE21E968342002BE0E8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DB66EEE51E96836B002BE0E8 /* WLHAdViewController.h */,
+				DB66EEE61E96836B002BE0E8 /* WLHAdViewController.m */,
+				DB66EEE81E968393002BE0E8 /* WLHAdViewController.xib */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DB66EEE31E968342002BE0E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB084A6B1E98A88A001A3509 /* WLHAdItem.h */,
+				DB084A6C1E98A88A001A3509 /* WLHAdItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB66EEE41E968342002BE0E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBC973D51E8FBADF00620E78 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973D61E8FBADF00620E78 /* Control */,
+				DBC973D71E8FBADF00620E78 /* Model */,
+				DBC973D81E8FBADF00620E78 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DBC973D61E8FBADF00620E78 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973D91E8FBD1900620E78 /* WLHTabBarController.h */,
+				DBC973DA1E8FBD1900620E78 /* WLHTabBarController.m */,
+				DB30FA471E94F74E005F706F /* WLHNavigationController.h */,
+				DB30FA481E94F74E005F706F /* WLHNavigationController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBC973D71E8FBADF00620E78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBC973D81E8FBADF00620E78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB3AAD071E94A9A50066683B /* WLHTabBar.h */,
+				DB3AAD081E94A9A50066683B /* WLHTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBC973EB1E8FC47200620E78 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973EC1E8FC4CC00620E78 /* UIImage+WLHImage.h */,
+				DBC973ED1E8FC4CC00620E78 /* UIImage+WLHImage.m */,
+				DB30FA401E94D521005F706F /* UIView+frame.h */,
+				DB30FA411E94D521005F706F /* UIView+frame.m */,
+				DB30FA441E94EB8E005F706F /* UIBarButtonItem+item.h */,
+				DB30FA451E94EB8E005F706F /* UIBarButtonItem+item.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DBDAA28B1E8FB0450043E140 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB66EEE11E968342002BE0E8 /* AD */,
+				DB30FA4A1E95249A005F706F /* Setting */,
+				DBC973D51E8FBADF00620E78 /* Main */,
+				DBDAA29C1E8FB0450043E140 /* Other */,
+				DBDAA28C1E8FB0450043E140 /* Essence */,
+				DBDAA2901E8FB0450043E140 /* FriendTrends */,
+				DBDAA2941E8FB0450043E140 /* Mine */,
+				DBDAA2981E8FB0450043E140 /* New */,
+				DBDAA29F1E8FB0450043E140 /* Publish */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DBDAA28C1E8FB0450043E140 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA28D1E8FB0450043E140 /* Control */,
+				DBDAA28E1E8FB0450043E140 /* Model */,
+				DBDAA28F1E8FB0450043E140 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		DBDAA28D1E8FB0450043E140 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973DC1E8FBD3B00620E78 /* WLHEssenceController.h */,
+				DBC973DD1E8FBD3B00620E78 /* WLHEssenceController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBDAA28E1E8FB0450043E140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDAA28F1E8FB0450043E140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBDAA2901E8FB0450043E140 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA2911E8FB0450043E140 /* Control */,
+				DBDAA2921E8FB0450043E140 /* Model */,
+				DBDAA2931E8FB0450043E140 /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		DBDAA2911E8FB0450043E140 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973DF1E8FBD5800620E78 /* WLHFriendTrendsController.h */,
+				DBC973E01E8FBD5800620E78 /* WLHFriendTrendsController.m */,
+				DB3265041E9E733800A20E60 /* WLHFriendTrendsController.xib */,
+				DBDBFB581E9F825700D484AF /* WLHloginRegisterViewController.h */,
+				DBDBFB591E9F825700D484AF /* WLHloginRegisterViewController.m */,
+				DBDBFB5A1E9F825700D484AF /* WLHloginRegisterViewController.xib */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBDAA2921E8FB0450043E140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDAA2931E8FB0450043E140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBDBFB5D1E9F8F8200D484AF /* WLHLoginRegisterView.h */,
+				DBDBFB5E1E9F8F8200D484AF /* WLHLoginRegisterView.m */,
+				DBDBFB601E9F8F9200D484AF /* WLHLoginRegisterView.xib */,
+				DB66FEAC1EA08A1400F4C123 /* WLHQuickLoginView.h */,
+				DB66FEAD1EA08A1400F4C123 /* WLHQuickLoginView.m */,
+				DB66FEAF1EA08A1F00F4C123 /* WLHQuickLoginView.xib */,
+				DB66FEB11EA08F2F00F4C123 /* WLHQuickButton.h */,
+				DB66FEB21EA08F2F00F4C123 /* WLHQuickButton.m */,
+				DB73F2191EA1F40400840D67 /* WLHLoginField.h */,
+				DB73F21A1EA1F40400840D67 /* WLHLoginField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBDAA2941E8FB0450043E140 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA2951E8FB0450043E140 /* Control */,
+				DBDAA2961E8FB0450043E140 /* Model */,
+				DBDAA2971E8FB0450043E140 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DBDAA2951E8FB0450043E140 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973E21E8FBD7200620E78 /* WLHMineController.h */,
+				DBC973E31E8FBD7200620E78 /* WLHMineController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBDAA2961E8FB0450043E140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDAA2971E8FB0450043E140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBDAA2981E8FB0450043E140 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA2991E8FB0450043E140 /* Control */,
+				DBDAA29A1E8FB0450043E140 /* Model */,
+				DBDAA29B1E8FB0450043E140 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		DBDAA2991E8FB0450043E140 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973E51E8FBDA900620E78 /* WLHNewController.h */,
+				DBC973E61E8FBDA900620E78 /* WLHNewController.m */,
+				DB34BA801E98E5FD009EC80E /* WLHRecomTagController.h */,
+				DB34BA811E98E5FD009EC80E /* WLHRecomTagController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBDAA29A1E8FB0450043E140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB34BA861E98EA7E009EC80E /* WLHTagItem.h */,
+				DB34BA871E98EA7E009EC80E /* WLHTagItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDAA29B1E8FB0450043E140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB34BA8C1E98F34A009EC80E /* WLHRecomTagCell.h */,
+				DB34BA8D1E98F34A009EC80E /* WLHRecomTagCell.m */,
+				DB34BA8E1E98F34A009EC80E /* WLHRecomTagCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBDAA29C1E8FB0450043E140 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973EB1E8FC47200620E78 /* Category */,
+				DBDAA29D1E8FB0450043E140 /* AppDelegate.h */,
+				DBDAA29E1E8FB0450043E140 /* AppDelegate.m */,
+				DB30FA431E94D74C005F706F /* WLHBaiSiBuDeJieV2.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DBDAA29F1E8FB0450043E140 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAA2A01E8FB0450043E140 /* Control */,
+				DBDAA2A11E8FB0450043E140 /* Model */,
+				DBDAA2A21E8FB0450043E140 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		DBDAA2A01E8FB0450043E140 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DBC973E81E8FBDBB00620E78 /* WLHPublishController.h */,
+				DBC973E91E8FBDBB00620E78 /* WLHPublishController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DBDAA2A11E8FB0450043E140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDAA2A21E8FB0450043E140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB45552A1E8E982300138F9B /* WLHBaiSiBuDeJieV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB45554D1E8E982300138F9B /* Build configuration list for PBXNativeTarget "WLHBaiSiBuDeJieV2" */;
+			buildPhases = (
+				C4E1FE763C97DE401B13B8DA /* [CP] Check Pods Manifest.lock */,
+				DB4555271E8E982300138F9B /* Sources */,
+				DB4555281E8E982300138F9B /* Frameworks */,
+				DB4555291E8E982300138F9B /* Resources */,
+				655922C50491DC69BA44D444 /* [CP] Embed Pods Frameworks */,
+				9BFC6BFBE01DD7AAEC8CDB7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLHBaiSiBuDeJieV2;
+			productName = WLHBaiSiBuDeJieV2;
+			productReference = DB45552B1E8E982300138F9B /* WLHBaiSiBuDeJieV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4555431E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4555501E8E982300138F9B /* Build configuration list for PBXNativeTarget "WLHBaiSiBuDeJieV2UITests" */;
+			buildPhases = (
+				DB4555401E8E982300138F9B /* Sources */,
+				DB4555411E8E982300138F9B /* Frameworks */,
+				DB4555421E8E982300138F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4555461E8E982300138F9B /* PBXTargetDependency */,
+			);
+			name = WLHBaiSiBuDeJieV2UITests;
+			productName = WLHBaiSiBuDeJieV2UITests;
+			productReference = DB4555441E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4555231E8E982300138F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLH;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WuLiang;
+				TargetAttributes = {
+					DB45552A1E8E982300138F9B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					DB4555431E8E982300138F9B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB45552A1E8E982300138F9B;
+					};
+				};
+			};
+			buildConfigurationList = DB4555261E8E982300138F9B /* Build configuration list for PBXProject "WLHBaiSiBuDeJieV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4555221E8E982300138F9B;
+			productRefGroup = DB45552C1E8E982300138F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB45552A1E8E982300138F9B /* WLHBaiSiBuDeJieV2 */,
+				DB4555431E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4555291E8E982300138F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDBFB611E9F8F9200D484AF /* WLHLoginRegisterView.xib in Resources */,
+				DB3265051E9E733800A20E60 /* WLHFriendTrendsController.xib in Resources */,
+				DB66FEB01EA08A1F00F4C123 /* WLHQuickLoginView.xib in Resources */,
+				DB45553E1E8E982300138F9B /* LaunchScreen.storyboard in Resources */,
+				DB66EEDB1E9682C4002BE0E8 /* LaunchImage-700-568h@2x.png in Resources */,
+				DB66EEDF1E9682C4002BE0E8 /* LaunchImage.png in Resources */,
+				DB45553B1E8E982300138F9B /* Assets.xcassets in Resources */,
+				DB66EEDC1E9682C4002BE0E8 /* LaunchImage-700@2x.png in Resources */,
+				DB34BA901E98F34A009EC80E /* WLHRecomTagCell.xib in Resources */,
+				DB66EEDE1E9682C4002BE0E8 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				DB66EEDA1E9682C4002BE0E8 /* LaunchImage-568h@2x.png in Resources */,
+				DB66EEE91E968393002BE0E8 /* WLHAdViewController.xib in Resources */,
+				DB66EEDD1E9682C4002BE0E8 /* LaunchImage-800-667h@2x.png in Resources */,
+				DB4555391E8E982300138F9B /* Main.storyboard in Resources */,
+				DB66EEE01E9682C4002BE0E8 /* LaunchImage@2x.png in Resources */,
+				DBDBFB5C1E9F825700D484AF /* WLHloginRegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4555421E8E982300138F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655922C50491DC69BA44D444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLHBaiSiBuDeJieV2/Pods-WLHBaiSiBuDeJieV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFC6BFBE01DD7AAEC8CDB7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLHBaiSiBuDeJieV2/Pods-WLHBaiSiBuDeJieV2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E1FE763C97DE401B13B8DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4555271E8E982300138F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB30FA421E94D521005F706F /* UIView+frame.m in Sources */,
+				DB30FA461E94EB8E005F706F /* UIBarButtonItem+item.m in Sources */,
+				DB3AAD091E94A9A50066683B /* WLHTabBar.m in Sources */,
+				DBC973E41E8FBD7200620E78 /* WLHMineController.m in Sources */,
+				DB30FA491E94F74E005F706F /* WLHNavigationController.m in Sources */,
+				DB084A6D1E98A88A001A3509 /* WLHAdItem.m in Sources */,
+				DB4555301E8E982300138F9B /* main.m in Sources */,
+				DB34BA881E98EA7E009EC80E /* WLHTagItem.m in Sources */,
+				DBC973EE1E8FC4CC00620E78 /* UIImage+WLHImage.m in Sources */,
+				DBC973DE1E8FBD3B00620E78 /* WLHEssenceController.m in Sources */,
+				DB66FEB31EA08F2F00F4C123 /* WLHQuickButton.m in Sources */,
+				DB66EEE71E96836B002BE0E8 /* WLHAdViewController.m in Sources */,
+				DBDAA2A31E8FB0450043E140 /* AppDelegate.m in Sources */,
+				DBDBFB5F1E9F8F8200D484AF /* WLHLoginRegisterView.m in Sources */,
+				DBC973EA1E8FBDBB00620E78 /* WLHPublishController.m in Sources */,
+				DB30FA501E9524C2005F706F /* WLHSettingController.m in Sources */,
+				DBC973DB1E8FBD1900620E78 /* WLHTabBarController.m in Sources */,
+				DB34BA821E98E5FD009EC80E /* WLHRecomTagController.m in Sources */,
+				DB73F21B1EA1F40400840D67 /* WLHLoginField.m in Sources */,
+				DBC973E71E8FBDA900620E78 /* WLHNewController.m in Sources */,
+				DB34BA8F1E98F34A009EC80E /* WLHRecomTagCell.m in Sources */,
+				DBDBFB5B1E9F825700D484AF /* WLHloginRegisterViewController.m in Sources */,
+				DB66FEAE1EA08A1400F4C123 /* WLHQuickLoginView.m in Sources */,
+				DBC973E11E8FBD5800620E78 /* WLHFriendTrendsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4555401E8E982300138F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4555491E8E982300138F9B /* WLHBaiSiBuDeJieV2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4555461E8E982300138F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB45552A1E8E982300138F9B /* WLHBaiSiBuDeJieV2 */;
+			targetProxy = DB4555451E8E982300138F9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB4555371E8E982300138F9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4555381E8E982300138F9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB45553C1E8E982300138F9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB45553D1E8E982300138F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB45554B1E8E982300138F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB45554C1E8E982300138F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB45554E1E8E982300138F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47531A120113621C1B03AFE /* Pods-WLHBaiSiBuDeJieV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WLHBaiSiBuDeJieV2/Classes/Other/WLHBaiSiBuDeJieV2.pch;
+				INFOPLIST_FILE = WLHBaiSiBuDeJieV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHBaiSiBuDeJieV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB45554F1E8E982300138F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586D181E1480217B1C9EC95F /* Pods-WLHBaiSiBuDeJieV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WLHBaiSiBuDeJieV2/Classes/Other/WLHBaiSiBuDeJieV2.pch;
+				INFOPLIST_FILE = WLHBaiSiBuDeJieV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHBaiSiBuDeJieV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB4555511E8E982300138F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLHBaiSiBuDeJieV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHBaiSiBuDeJieV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLHBaiSiBuDeJieV2;
+			};
+			name = Debug;
+		};
+		DB4555521E8E982300138F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLHBaiSiBuDeJieV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.WLHBaiSiBuDeJieV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLHBaiSiBuDeJieV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4555261E8E982300138F9B /* Build configuration list for PBXProject "WLHBaiSiBuDeJieV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB45554B1E8E982300138F9B /* Debug */,
+				DB45554C1E8E982300138F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB45554D1E8E982300138F9B /* Build configuration list for PBXNativeTarget "WLHBaiSiBuDeJieV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB45554E1E8E982300138F9B /* Debug */,
+				DB45554F1E8E982300138F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4555501E8E982300138F9B /* Build configuration list for PBXNativeTarget "WLHBaiSiBuDeJieV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4555511E8E982300138F9B /* Debug */,
+				DB4555521E8E982300138F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4555231E8E982300138F9B /* Project object */;
+}

@@ -1,0 +1,25 @@
+//
+//  WLHBaiSiBuDeJieV2.pch
+//  WLHBaiSiBuDeJieV2
+//
+//  Created by 何武亮 on 05/04/2017.
+//  Copyright © 2017 WuLiang. All rights reserved.
+//
+#ifndef WLHBaiSiBuDeJieV2_pch
+#define WLHBaiSiBuDeJieV2_pch
+
+
+#endif /* WLHBaiSiBuDeJieV2_pch */
+
+#import "UIView+frame.h"
+#import "UIBarButtonItem+item.h"
+
+#define WLHColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+/**********************iphone屏幕适配*************************/
+#define WLHScreenH [UIScreen mainScreen].bounds.size.height
+#define WLHScreenW [UIScreen mainScreen].bounds.size.width
+#define iphone6p7s (WLHScreenH == 960)
+#define iphone66s7 (WLHScreenH == 667)
+#define iphone5 (WLHScreenH == 568)
+/***********************************************************/

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF38EF21DE54E3400A7740C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38EF11DE54E3400A7740C /* main.m */; };
+		DBF38EF51DE54E3400A7740C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38EF41DE54E3400A7740C /* AppDelegate.m */; };
+		DBF38EF81DE54E3400A7740C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38EF71DE54E3400A7740C /* ViewController.m */; };
+		DBF38EFB1DE54E3400A7740C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF38EF91DE54E3400A7740C /* Main.storyboard */; };
+		DBF38EFD1DE54E3400A7740C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF38EFC1DE54E3400A7740C /* Assets.xcassets */; };
+		DBF38F001DE54E3400A7740C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF38EFE1DE54E3400A7740C /* LaunchScreen.storyboard */; };
+		DBF38F0B1DE54E3400A7740C /* SunYatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38F0A1DE54E3400A7740C /* SunYatTests.m */; };
+		DBF38F161DE54E3400A7740C /* SunYatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38F151DE54E3400A7740C /* SunYatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF38F071DE54E3400A7740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF38EE51DE54E3400A7740C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF38EEC1DE54E3400A7740C;
+			remoteInfo = SunYat;
+		};
+		DBF38F121DE54E3400A7740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF38EE51DE54E3400A7740C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF38EEC1DE54E3400A7740C;
+			remoteInfo = SunYat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF38EED1DE54E3400A7740C /* SunYat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunYat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF38EF11DE54E3400A7740C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF38EF31DE54E3400A7740C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBF38EF41DE54E3400A7740C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBF38EF61DE54E3400A7740C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBF38EF71DE54E3400A7740C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBF38EFA1DE54E3400A7740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF38EFC1DE54E3400A7740C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF38EFF1DE54E3400A7740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBF38F011DE54E3400A7740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF38F061DE54E3400A7740C /* SunYatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunYatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF38F0A1DE54E3400A7740C /* SunYatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunYatTests.m; sourceTree = "<group>"; };
+		DBF38F0C1DE54E3400A7740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF38F111DE54E3400A7740C /* SunYatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunYatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF38F151DE54E3400A7740C /* SunYatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunYatUITests.m; sourceTree = "<group>"; };
+		DBF38F171DE54E3400A7740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF38EEA1DE54E3400A7740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F031DE54E3400A7740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F0E1DE54E3400A7740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF38EE41DE54E3400A7740C = {
+			isa = PBXGroup;
+			children = (
+				DBF38EEF1DE54E3400A7740C /* SunYat */,
+				DBF38F091DE54E3400A7740C /* SunYatTests */,
+				DBF38F141DE54E3400A7740C /* SunYatUITests */,
+				DBF38EEE1DE54E3400A7740C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF38EEE1DE54E3400A7740C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38EED1DE54E3400A7740C /* SunYat.app */,
+				DBF38F061DE54E3400A7740C /* SunYatTests.xctest */,
+				DBF38F111DE54E3400A7740C /* SunYatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF38EEF1DE54E3400A7740C /* SunYat */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38EF31DE54E3400A7740C /* AppDelegate.h */,
+				DBF38EF41DE54E3400A7740C /* AppDelegate.m */,
+				DBF38EF61DE54E3400A7740C /* ViewController.h */,
+				DBF38EF71DE54E3400A7740C /* ViewController.m */,
+				DBF38EF91DE54E3400A7740C /* Main.storyboard */,
+				DBF38EFC1DE54E3400A7740C /* Assets.xcassets */,
+				DBF38EFE1DE54E3400A7740C /* LaunchScreen.storyboard */,
+				DBF38F011DE54E3400A7740C /* Info.plist */,
+				DBF38EF01DE54E3400A7740C /* Supporting Files */,
+			);
+			path = SunYat;
+			sourceTree = "<group>";
+		};
+		DBF38EF01DE54E3400A7740C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38EF11DE54E3400A7740C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF38F091DE54E3400A7740C /* SunYatTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38F0A1DE54E3400A7740C /* SunYatTests.m */,
+				DBF38F0C1DE54E3400A7740C /* Info.plist */,
+			);
+			path = SunYatTests;
+			sourceTree = "<group>";
+		};
+		DBF38F141DE54E3400A7740C /* SunYatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38F151DE54E3400A7740C /* SunYatUITests.m */,
+				DBF38F171DE54E3400A7740C /* Info.plist */,
+			);
+			path = SunYatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF38EEC1DE54E3400A7740C /* SunYat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF38F1A1DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYat" */;
+			buildPhases = (
+				DBF38EE91DE54E3400A7740C /* Sources */,
+				DBF38EEA1DE54E3400A7740C /* Frameworks */,
+				DBF38EEB1DE54E3400A7740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunYat;
+			productName = SunYat;
+			productReference = DBF38EED1DE54E3400A7740C /* SunYat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF38F051DE54E3400A7740C /* SunYatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF38F1D1DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYatTests" */;
+			buildPhases = (
+				DBF38F021DE54E3400A7740C /* Sources */,
+				DBF38F031DE54E3400A7740C /* Frameworks */,
+				DBF38F041DE54E3400A7740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF38F081DE54E3400A7740C /* PBXTargetDependency */,
+			);
+			name = SunYatTests;
+			productName = SunYatTests;
+			productReference = DBF38F061DE54E3400A7740C /* SunYatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF38F101DE54E3400A7740C /* SunYatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF38F201DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYatUITests" */;
+			buildPhases = (
+				DBF38F0D1DE54E3400A7740C /* Sources */,
+				DBF38F0E1DE54E3400A7740C /* Frameworks */,
+				DBF38F0F1DE54E3400A7740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF38F131DE54E3400A7740C /* PBXTargetDependency */,
+			);
+			name = SunYatUITests;
+			productName = SunYatUITests;
+			productReference = DBF38F111DE54E3400A7740C /* SunYatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF38EE51DE54E3400A7740C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WuLiang;
+				TargetAttributes = {
+					DBF38EEC1DE54E3400A7740C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DBF38F051DE54E3400A7740C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBF38EEC1DE54E3400A7740C;
+					};
+					DBF38F101DE54E3400A7740C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBF38EEC1DE54E3400A7740C;
+					};
+				};
+			};
+			buildConfigurationList = DBF38EE81DE54E3400A7740C /* Build configuration list for PBXProject "SunYat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF38EE41DE54E3400A7740C;
+			productRefGroup = DBF38EEE1DE54E3400A7740C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF38EEC1DE54E3400A7740C /* SunYat */,
+				DBF38F051DE54E3400A7740C /* SunYatTests */,
+				DBF38F101DE54E3400A7740C /* SunYatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF38EEB1DE54E3400A7740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF38F001DE54E3400A7740C /* LaunchScreen.storyboard in Resources */,
+				DBF38EFD1DE54E3400A7740C /* Assets.xcassets in Resources */,
+				DBF38EFB1DE54E3400A7740C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F041DE54E3400A7740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F0F1DE54E3400A7740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF38EE91DE54E3400A7740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF38EF81DE54E3400A7740C /* ViewController.m in Sources */,
+				DBF38EF51DE54E3400A7740C /* AppDelegate.m in Sources */,
+				DBF38EF21DE54E3400A7740C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F021DE54E3400A7740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF38F0B1DE54E3400A7740C /* SunYatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF38F0D1DE54E3400A7740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF38F161DE54E3400A7740C /* SunYatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF38F081DE54E3400A7740C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF38EEC1DE54E3400A7740C /* SunYat */;
+			targetProxy = DBF38F071DE54E3400A7740C /* PBXContainerItemProxy */;
+		};
+		DBF38F131DE54E3400A7740C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF38EEC1DE54E3400A7740C /* SunYat */;
+			targetProxy = DBF38F121DE54E3400A7740C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF38EF91DE54E3400A7740C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF38EFA1DE54E3400A7740C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF38EFE1DE54E3400A7740C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF38EFF1DE54E3400A7740C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF38F181DE54E3400A7740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF38F191DE54E3400A7740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF38F1B1DE54E3400A7740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunYat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF38F1C1DE54E3400A7740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunYat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBF38F1E1DE54E3400A7740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunYatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunYat.app/SunYat";
+			};
+			name = Debug;
+		};
+		DBF38F1F1DE54E3400A7740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunYatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunYat.app/SunYat";
+			};
+			name = Release;
+		};
+		DBF38F211DE54E3400A7740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunYatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunYat;
+			};
+			name = Debug;
+		};
+		DBF38F221DE54E3400A7740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunYatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ho.SunYatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunYat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF38EE81DE54E3400A7740C /* Build configuration list for PBXProject "SunYat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF38F181DE54E3400A7740C /* Debug */,
+				DBF38F191DE54E3400A7740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF38F1A1DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF38F1B1DE54E3400A7740C /* Debug */,
+				DBF38F1C1DE54E3400A7740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF38F1D1DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF38F1E1DE54E3400A7740C /* Debug */,
+				DBF38F1F1DE54E3400A7740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF38F201DE54E3400A7740C /* Build configuration list for PBXNativeTarget "SunYatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF38F211DE54E3400A7740C /* Debug */,
+				DBF38F221DE54E3400A7740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF38EE51DE54E3400A7740C /* Project object */;
+}

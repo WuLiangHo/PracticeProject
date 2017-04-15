@@ -1,0 +1,19 @@
+//
+//  WLHBaiSiBuDeJie.pch
+//  WLHBaiSiBuDeJie
+//
+//  Created by 何武亮 on 21/10/2016.
+//  Copyright © 2016 WuLiang. All rights reserved.
+//
+
+#import "UIView+frame.h"
+#import "UIBarButtonItem+barButtonItem.h"
+
+/***************屏幕适配****************/
+#define WLHScreenW [UIScreen mainScreen].bounds.size.width
+#define WLHScreenH [UIScreen mainScreen].bounds.size.height
+#define iphone6P7P (WLHScreenH == 736)
+#define iphone67 (WLHScreenH == 667)
+#define iphone5 (WLHScreenH == 568)
+#define iphone4 (WLHScreenH == 480)
+/***************屏幕适配****************/
